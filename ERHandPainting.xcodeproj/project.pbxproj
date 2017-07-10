@@ -455,6 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7W6345K7JN;
 				INFOPLIST_FILE = ERHandPainting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.erhu.ERHandPainting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -467,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7W6345K7JN;
 				INFOPLIST_FILE = ERHandPainting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.erhu.ERHandPainting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -542,6 +544,7 @@
 				D85CD4041F13157100CE5640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D85CD4051F13157100CE5640 /* Build configuration list for PBXNativeTarget "ERHandPaintingTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +553,7 @@
 				D85CD4071F13157100CE5640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D85CD4081F13157100CE5640 /* Build configuration list for PBXNativeTarget "ERHandPaintingUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +562,7 @@
 				D85CD40A1F13157100CE5640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
