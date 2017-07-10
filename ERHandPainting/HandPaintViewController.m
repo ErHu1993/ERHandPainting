@@ -19,13 +19,9 @@
 
 @implementation HandPaintViewController
 
-- (void)dealloc{
-    
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setupSubViews];
+    [self setupSubViews]; 
 }
 
 - (void)setupSubViews{
@@ -162,7 +158,7 @@
 
 #pragma mark - getter/setter
 
-- (UIImageView *)paintingImageView {
+- (HandPaintingImageView *)paintingImageView {
     if (!_paintingImageView) {
         UIImage *image = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"WechatIMG" ofType:@"jpeg"]];
         NSAssert(image,@"必须有图片");
