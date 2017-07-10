@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ERHandPainting"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "You Can drawn on UIImageView"
   s.homepage     = "https://github.com/ErHu1993/ERHandPainting"
   s.license= { :type => "MIT", :file => "LICENSE" }
