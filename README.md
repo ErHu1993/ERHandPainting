@@ -1,7 +1,7 @@
 # ERHandPainting
 
 ## 在imageView上进行手绘
-![](http://upload-images.jianshu.io/upload_images/2773241-d175888444283b95.gif?imageMogr2/auto-orient/strip)
+![](http://upload-images.jianshu.io/upload_images/2773241-78632a59fdd12187.gif?imageMogr2/auto-orient/strip)
 
 ## 使用方法:
 
