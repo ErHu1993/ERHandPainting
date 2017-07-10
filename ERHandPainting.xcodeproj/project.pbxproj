@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D85CD3DA1F13157100CE5640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D85CD3D91F13157100CE5640 /* main.m */; };
+		D85CD3DD1F13157100CE5640 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D85CD3DC1F13157100CE5640 /* AppDelegate.m */; };
+		D85CD3E31F13157100CE5640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85CD3E11F13157100CE5640 /* Main.storyboard */; };
+		D85CD3E51F13157100CE5640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85CD3E41F13157100CE5640 /* Assets.xcassets */; };
+		D85CD3E81F13157100CE5640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85CD3E61F13157100CE5640 /* LaunchScreen.storyboard */; };
+		D85CD3F31F13157100CE5640 /* ERHandPaintingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D85CD3F21F13157100CE5640 /* ERHandPaintingTests.m */; };
+		D85CD3FE1F13157100CE5640 /* ERHandPaintingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D85CD3FD1F13157100CE5640 /* ERHandPaintingUITests.m */; };
+		D85CD4101F13159C00CE5640 /* HandPaintingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D85CD40D1F13159C00CE5640 /* HandPaintingImageView.m */; };
+		D85CD4111F13159C00CE5640 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = D85CD40F1F13159C00CE5640 /* Stroke.m */; };
+		D85CD4141F1315C600CE5640 /* HandPaintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85CD4131F1315C600CE5640 /* HandPaintViewController.m */; };
+		D85CD4161F1317C600CE5640 /* WechatIMG.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D85CD4151F1317C600CE5640 /* WechatIMG.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D85CD3EF1F13157100CE5640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85CD3CD1F13157100CE5640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85CD3D41F13157100CE5640;
+			remoteInfo = ERHandPainting;
+		};
+		D85CD3FA1F13157100CE5640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85CD3CD1F13157100CE5640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85CD3D41F13157100CE5640;
+			remoteInfo = ERHandPainting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D85CD3D51F13157100CE5640 /* ERHandPainting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERHandPainting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85CD3D91F13157100CE5640 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D85CD3DB1F13157100CE5640 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D85CD3DC1F13157100CE5640 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D85CD3E21F13157100CE5640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D85CD3E41F13157100CE5640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D85CD3E71F13157100CE5640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D85CD3E91F13157100CE5640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85CD3EE1F13157100CE5640 /* ERHandPaintingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERHandPaintingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85CD3F21F13157100CE5640 /* ERHandPaintingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERHandPaintingTests.m; sourceTree = "<group>"; };
+		D85CD3F41F13157100CE5640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85CD3F91F13157100CE5640 /* ERHandPaintingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERHandPaintingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85CD3FD1F13157100CE5640 /* ERHandPaintingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERHandPaintingUITests.m; sourceTree = "<group>"; };
+		D85CD3FF1F13157100CE5640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85CD40C1F13159C00CE5640 /* HandPaintingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandPaintingImageView.h; sourceTree = "<group>"; };
+		D85CD40D1F13159C00CE5640 /* HandPaintingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandPaintingImageView.m; sourceTree = "<group>"; };
+		D85CD40E1F13159C00CE5640 /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		D85CD40F1F13159C00CE5640 /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		D85CD4121F1315C600CE5640 /* HandPaintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandPaintViewController.h; sourceTree = "<group>"; };
+		D85CD4131F1315C600CE5640 /* HandPaintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandPaintViewController.m; sourceTree = "<group>"; };
+		D85CD4151F1317C600CE5640 /* WechatIMG.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D85CD3D21F13157100CE5640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85CD3EB1F13157100CE5640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85CD3F61F13157100CE5640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D85CD3CC1F13157100CE5640 = {
+			isa = PBXGroup;
+			children = (
+				D85CD3D71F13157100CE5640 /* ERHandPainting */,
+				D85CD3F11F13157100CE5640 /* ERHandPaintingTests */,
+				D85CD3FC1F13157100CE5640 /* ERHandPaintingUITests */,
+				D85CD3D61F13157100CE5640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D85CD3D61F13157100CE5640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D85CD3D51F13157100CE5640 /* ERHandPainting.app */,
+				D85CD3EE1F13157100CE5640 /* ERHandPaintingTests.xctest */,
+				D85CD3F91F13157100CE5640 /* ERHandPaintingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D85CD3D71F13157100CE5640 /* ERHandPainting */ = {
+			isa = PBXGroup;
+			children = (
+				D85CD40B1F13159C00CE5640 /* HandPainting */,
+				D85CD3DB1F13157100CE5640 /* AppDelegate.h */,
+				D85CD3DC1F13157100CE5640 /* AppDelegate.m */,
+				D85CD4121F1315C600CE5640 /* HandPaintViewController.h */,
+				D85CD4131F1315C600CE5640 /* HandPaintViewController.m */,
+				D85CD4151F1317C600CE5640 /* WechatIMG.jpeg */,
+				D85CD3E11F13157100CE5640 /* Main.storyboard */,
+				D85CD3E41F13157100CE5640 /* Assets.xcassets */,
+				D85CD3E61F13157100CE5640 /* LaunchScreen.storyboard */,
+				D85CD3E91F13157100CE5640 /* Info.plist */,
+				D85CD3D81F13157100CE5640 /* Supporting Files */,
+			);
+			path = ERHandPainting;
+			sourceTree = "<group>";
+		};
+		D85CD3D81F13157100CE5640 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D85CD3D91F13157100CE5640 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D85CD3F11F13157100CE5640 /* ERHandPaintingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D85CD3F21F13157100CE5640 /* ERHandPaintingTests.m */,
+				D85CD3F41F13157100CE5640 /* Info.plist */,
+			);
+			path = ERHandPaintingTests;
+			sourceTree = "<group>";
+		};
+		D85CD3FC1F13157100CE5640 /* ERHandPaintingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D85CD3FD1F13157100CE5640 /* ERHandPaintingUITests.m */,
+				D85CD3FF1F13157100CE5640 /* Info.plist */,
+			);
+			path = ERHandPaintingUITests;
+			sourceTree = "<group>";
+		};
+		D85CD40B1F13159C00CE5640 /* HandPainting */ = {
+			isa = PBXGroup;
+			children = (
+				D85CD40C1F13159C00CE5640 /* HandPaintingImageView.h */,
+				D85CD40D1F13159C00CE5640 /* HandPaintingImageView.m */,
+				D85CD40E1F13159C00CE5640 /* Stroke.h */,
+				D85CD40F1F13159C00CE5640 /* Stroke.m */,
+			);
+			path = HandPainting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D85CD3D41F13157100CE5640 /* ERHandPainting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85CD4021F13157100CE5640 /* Build configuration list for PBXNativeTarget "ERHandPainting" */;
+			buildPhases = (
+				D85CD3D11F13157100CE5640 /* Sources */,
+				D85CD3D21F13157100CE5640 /* Frameworks */,
+				D85CD3D31F13157100CE5640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ERHandPainting;
+			productName = ERHandPainting;
+			productReference = D85CD3D51F13157100CE5640 /* ERHandPainting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D85CD3ED1F13157100CE5640 /* ERHandPaintingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85CD4051F13157100CE5640 /* Build configuration list for PBXNativeTarget "ERHandPaintingTests" */;
+			buildPhases = (
+				D85CD3EA1F13157100CE5640 /* Sources */,
+				D85CD3EB1F13157100CE5640 /* Frameworks */,
+				D85CD3EC1F13157100CE5640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85CD3F01F13157100CE5640 /* PBXTargetDependency */,
+			);
+			name = ERHandPaintingTests;
+			productName = ERHandPaintingTests;
+			productReference = D85CD3EE1F13157100CE5640 /* ERHandPaintingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D85CD3F81F13157100CE5640 /* ERHandPaintingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85CD4081F13157100CE5640 /* Build configuration list for PBXNativeTarget "ERHandPaintingUITests" */;
+			buildPhases = (
+				D85CD3F51F13157100CE5640 /* Sources */,
+				D85CD3F61F13157100CE5640 /* Frameworks */,
+				D85CD3F71F13157100CE5640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85CD3FB1F13157100CE5640 /* PBXTargetDependency */,
+			);
+			name = ERHandPaintingUITests;
+			productName = ERHandPaintingUITests;
+			productReference = D85CD3F91F13157100CE5640 /* ERHandPaintingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D85CD3CD1F13157100CE5640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "胡广宇";
+				TargetAttributes = {
+					D85CD3D41F13157100CE5640 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7W6345K7JN;
+						ProvisioningStyle = Automatic;
+					};
+					D85CD3ED1F13157100CE5640 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7W6345K7JN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D85CD3D41F13157100CE5640;
+					};
+					D85CD3F81F13157100CE5640 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7W6345K7JN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D85CD3D41F13157100CE5640;
+					};
+				};
+			};
+			buildConfigurationList = D85CD3D01F13157100CE5640 /* Build configuration list for PBXProject "ERHandPainting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D85CD3CC1F13157100CE5640;
+			productRefGroup = D85CD3D61F13157100CE5640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D85CD3D41F13157100CE5640 /* ERHandPainting */,
+				D85CD3ED1F13157100CE5640 /* ERHandPaintingTests */,
+				D85CD3F81F13157100CE5640 /* ERHandPaintingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D85CD3D31F13157100CE5640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85CD3E81F13157100CE5640 /* LaunchScreen.storyboard in Resources */,
+				D85CD3E51F13157100CE5640 /* Assets.xcassets in Resources */,
+				D85CD3E31F13157100CE5640 /* Main.storyboard in Resources */,
+				D85CD4161F1317C600CE5640 /* WechatIMG.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85CD3EC1F13157100CE5640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85CD3F71F13157100CE5640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D85CD3D11F13157100CE5640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85CD4111F13159C00CE5640 /* Stroke.m in Sources */,
+				D85CD4101F13159C00CE5640 /* HandPaintingImageView.m in Sources */,
+				D85CD3DD1F13157100CE5640 /* AppDelegate.m in Sources */,
+				D85CD4141F1315C600CE5640 /* HandPaintViewController.m in Sources */,
+				D85CD3DA1F13157100CE5640 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85CD3EA1F13157100CE5640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85CD3F31F13157100CE5640 /* ERHandPaintingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85CD3F51F13157100CE5640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85CD3FE1F13157100CE5640 /* ERHandPaintingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D85CD3F01F13157100CE5640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85CD3D41F13157100CE5640 /* ERHandPainting */;
+			targetProxy = D85CD3EF1F13157100CE5640 /* PBXContainerItemProxy */;
+		};
+		D85CD3FB1F13157100CE5640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85CD3D41F13157100CE5640 /* ERHandPainting */;
+			targetProxy = D85CD3FA1F13157100CE5640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D85CD3E11F13157100CE5640 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85CD3E21F13157100CE5640 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D85CD3E61F13157100CE5640 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85CD3E71F13157100CE5640 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D85CD4001F13157100CE5640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D85CD4011F13157100CE5640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D85CD4031F13157100CE5640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7W6345K7JN;
+				INFOPLIST_FILE = ERHandPainting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erhu.ERHandPainting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D85CD4041F13157100CE5640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7W6345K7JN;
+				INFOPLIST_FILE = ERHandPainting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erhu.ERHandPainting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D85CD4061F13157100CE5640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7W6345K7JN;
+				INFOPLIST_FILE = ERHandPaintingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erhu.ERHandPaintingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERHandPainting.app/ERHandPainting";
+			};
+			name = Debug;
+		};
+		D85CD4071F13157100CE5640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7W6345K7JN;
+				INFOPLIST_FILE = ERHandPaintingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erhu.ERHandPaintingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERHandPainting.app/ERHandPainting";
+			};
+			name = Release;
+		};
+		D85CD4091F13157100CE5640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7W6345K7JN;
+				INFOPLIST_FILE = ERHandPaintingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erhu.ERHandPaintingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ERHandPainting;
+			};
+			name = Debug;
+		};
+		D85CD40A1F13157100CE5640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7W6345K7JN;
+				INFOPLIST_FILE = ERHandPaintingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erhu.ERHandPaintingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ERHandPainting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D85CD3D01F13157100CE5640 /* Build configuration list for PBXProject "ERHandPainting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85CD4001F13157100CE5640 /* Debug */,
+				D85CD4011F13157100CE5640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85CD4021F13157100CE5640 /* Build configuration list for PBXNativeTarget "ERHandPainting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85CD4031F13157100CE5640 /* Debug */,
+				D85CD4041F13157100CE5640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D85CD4051F13157100CE5640 /* Build configuration list for PBXNativeTarget "ERHandPaintingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85CD4061F13157100CE5640 /* Debug */,
+				D85CD4071F13157100CE5640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D85CD4081F13157100CE5640 /* Build configuration list for PBXNativeTarget "ERHandPaintingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85CD4091F13157100CE5640 /* Debug */,
+				D85CD40A1F13157100CE5640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D85CD3CD1F13157100CE5640 /* Project object */;
+}
