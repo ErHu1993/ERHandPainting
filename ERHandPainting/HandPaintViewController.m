@@ -19,10 +19,6 @@
 
 @implementation HandPaintViewController
 
-- (void)dealloc{
-    
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupSubViews];
